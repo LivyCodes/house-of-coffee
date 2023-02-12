@@ -1,10 +1,15 @@
 .hero {
   background-color: #e2b77ad0;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 140px;
   box-sizing: border-box;
 }
 .hero h1 {
+  justify-content: center;
+  align-items: center;
   font-family: "Playball", cursive;
   font-size: 84px;
   border: 3px solid black;
