@@ -1,13 +1,12 @@
 html {
   scroll-behavior: smooth;
 }
-.navbar-nav {
-  justify-content: right;
-  align-items: flex-end;
-}
+
 .nav-link {
   color: #433a3a;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
+
 .nav-link:hover {
   color: #845c23;
 }
