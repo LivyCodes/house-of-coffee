@@ -116,6 +116,12 @@ a {
 .footer-list {
   text-align: center;
 }
+#open-source {
+  font-size: 16px;
+}
+#gitLink {
+  color: blue;
+}
 @media (max-width: 912px) {
   .hero {
     padding: 70px;
