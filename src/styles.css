@@ -18,6 +18,7 @@ html {
   align-items: center;
   padding: 160px;
   box-sizing: border-box;
+  border-radius: 5px;
 }
 .hero h1 {
   justify-content: center;
@@ -26,6 +27,9 @@ html {
   font-size: 84px;
   border: 5px solid black;
   padding: 20px;
+}
+img {
+  border-radius: 5px;
 }
 .about {
   padding-top: 60px;
