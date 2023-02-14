@@ -76,7 +76,7 @@ a {
 .footer-list {
   text-align: center;
 }
-@media (max-width: 576px) {
+@media (max-width: 912px) {
   .hero {
     padding: 70px;
     margin-top: 5px;
