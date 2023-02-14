@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 .nav-link {
@@ -12,13 +13,15 @@ html {
   color: #e2b77a;
 }
 .hero {
-  background-color: #e2b77ad0;
   text-align: center;
   justify-content: center;
   align-items: center;
   padding: 160px;
   box-sizing: border-box;
   border-radius: 5px;
+}
+.hero-1 {
+  background-color: #e2b77ad0;
 }
 .hero h1 {
   justify-content: center;
@@ -27,6 +30,30 @@ html {
   font-size: 84px;
   border: 5px solid black;
   padding: 20px;
+}
+.hero-2 {
+  background-image: url(/images/hot-drink.jpg);
+  background-size: contain;
+  background-repeat: round;
+}
+.hero-3 {
+  background-image: url(/images/bakery.jpg);
+  background-size: contain;
+  background-repeat: round;
+}
+.hero-4 {
+  background-image: url(/images/bfast-sandwich.jpg);
+  background-size: contain;
+  background-repeat: round;
+}
+
+.hero-5 {
+  background-image: url(/images/Fruit-Smoothie.jpeg);
+  background-size: contain;
+  background-repeat: round;
+}
+.font {
+  color: #ffffff;
 }
 img {
   border-radius: 5px;
@@ -37,9 +64,21 @@ img {
   align-items: center;
   text-align: center;
 }
+h2 {
+  font-family: "Playball", cursive;
+  text-align: center;
+  text-decoration: underline;
+  padding: 20px;
+}
 h3 {
   font-size: 50px;
   font-family: "Akaya Telivigala", cursive;
+}
+h4 {
+  font-family: "Akaya Telivigala", cursive;
+}
+.para-font {
+  font-size: 14px;
 }
 p {
   font-size: 20px;
@@ -96,5 +135,25 @@ a {
   .row-a {
     display: flex;
     flex-direction: column-reverse;
+  }
+  .row-b {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media (max-width: 700px) {
+  .hero-2,
+  .hero-3,
+  .hero-4,
+  .hero-5 {
+    background-size: cover;
+  }
+}
+@media (min-width: 1000px) {
+  h4 {
+    font-size: 28px;
+  }
+  .para-font {
+    font-size: 20px;
   }
 }
