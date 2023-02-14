@@ -8,7 +8,8 @@ html {
 }
 
 .nav-link:hover {
-  color: #845c23;
+  background-color: #897777;
+  color: #e2b77a;
 }
 .hero {
   background-color: #e2b77ad0;
@@ -27,12 +28,13 @@ html {
   padding: 20px;
 }
 .about {
+  padding-top: 60px;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 h3 {
-  font-size: 70px;
+  font-size: 50px;
   font-family: "Akaya Telivigala", cursive;
 }
 p {
@@ -46,6 +48,10 @@ p {
   color: #845c23;
   border-radius: 25px;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+.order-link:hover {
+  background-color: #845c23;
+  color: #faebd7;
 }
 .heros {
   background-color: #e2b77ad0;
@@ -72,7 +78,19 @@ a {
     margin-top: 5px;
     margin-bottom: 5px;
   }
-  .hero h1 {
-    border: none;
+  .heros {
+    display: flex;
+  }
+  .heros p {
+    font-size: 15px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .row-a {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
