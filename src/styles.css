@@ -6,10 +6,11 @@ html {
 .nav-link {
   color: #433a3a;
   font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
 }
 
 .nav-link:hover {
-  background-color: #897777;
+  background-color: #464242;
   color: #e2b77a;
 }
 .hero {
